@@ -4,5 +4,6 @@ let button = document.querySelector('.btn')
 let p = document.querySelector('.p')
 
 button.onclick = ()=>{
-    p.innerHTML = input.value.length    
+    p.innerHTML = 'Вы ввели строку длинной ' + input.value.length 
+
 }
